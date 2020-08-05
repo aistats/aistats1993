@@ -1,0 +1,64 @@
+
+# Site settings
+title: Artificial Intelligence and Statistics Conference
+description: > # this means to ignore newlines until "baseurl:"
+  This is the website of the AISTATS conference.
+baseurl: "/aistats1993" # the subpath of your site, e.g. /blog/
+url: "http://www.aistats.org" # the base hostname & protocol for your site
+#twitter_username: aistat
+github_username:  aistats
+author:
+  name: AISTATS
+  email:
+comments: false
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: aistats
+
+ghub:
+  edit: true
+  repository: aistats1993
+
+banner: 
+
+# Build settings
+markdown: kramdown
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: hotel.jpg
+  hide_tentative: true
+  proceedings:
+    url: https://www.springer.com/gp/book/9780387942810
+    show: true
+  room: 
+  venue: Hyatt Regency Pier 66
+  venue_url: https://www.pier66hotelmarina.com/
+  location: Ft. Lauderdale, FL, USA
+  full_name: Artificial Intelligence and Statistics
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
+  year: 1993
+  instance: 4th
+  styling: International Workshop on
+  dates:
+  - 1993-01-01
+  - 1993-01-01
+  chairs:
+  - type: General Chair
+    people:
+    - family: Oldford
+      given: Wayne
+  - type: Program Chair
+    people:
+    - family: Cheeseman
+      given: Peter
+      institute: 
+      url: 
+# change encoding for the generated output files to utf-8
+encoding: utf-8
+
+
